@@ -75,7 +75,7 @@
   
 
 /* carousel #css starts  */
-  .shipment-gallery .carousel-caption {
+.shipment-gallery .carousel-caption {
     background: rgba(0, 0, 0, 0.6);
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -84,43 +84,163 @@
     left: 15%;
     bottom: 1.25rem;
     transition: transform 0.3s ease;
-}
-.shipment-gallery h5{
+  }
+  
+  
+  .shipment-gallery .carousel-image {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .shipment-gallery .carousel-image:hover {
+    transform: scale(1.02);
+  }
+
+  
+  .shipment-gallery h5{
     color: var(--color-white);
-}
-.shipment-gallery .carousel-caption:hover {
+  }
+  .shipment-gallery .carousel-caption:hover {
     transform: translateY(-10px);
-}
-
-.shipment-gallery .carousel-caption h5 {
-    font-size: 1.75rem;
-    font-weight: 600;
+  }
+  
+  .shipment-gallery .carousel-caption h5 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.shipment-gallery .carousel-caption p {
+  }
+  
+  .shipment-gallery .carousel-caption p {
     color: var(--color-white);
-}
-
-
-.shipment-gallery .carousel-control-prev,
-.shipment-gallery .carousel-control-next {
+  }
+  
+  
+  .shipment-gallery .carousel-control-prev,
+  .shipment-gallery .carousel-control-next {
     width: 5%;
     opacity: 0.8;
-}
-
-.shipment-gallery .carousel-control-prev:hover,
-.shipment-gallery .carousel-control-next:hover {
+  }
+  
+  .shipment-gallery .carousel-control-prev:hover,
+  .shipment-gallery .carousel-control-next:hover {
     opacity: 1;
-}
-
-.shipment-gallery .carousel-indicators li {
+  }
+  
+  .shipment-gallery .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 50%;
     margin: 0 5px;
-}
-
-.shipment-gallery .carousel-indicators .active {
+  }
+  
+  .shipment-gallery .carousel-indicators .active {
     background-color: #fff;
-}
+  }
+
+    /* Modal Styles */
+    #imageModal .modal-dialog {
+        max-width: 100vw;
+        width: 100vw;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      #imageModal .modal-content {
+        background: transparent;
+        border: none;
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+      }
+      
+      #imageModal .modal-header {
+        border: none;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        z-index: 2;
+        padding: 0;
+        background: none;
+      }
+      
+      #imageModal .close {
+        font-size: 2.5rem;
+        color: #fff;
+        background: rgba(0,0,0,0.7);
+        border: 2px solid #fff;
+        border-radius: 50%;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        opacity: 1;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        transition: background 0.2s, color 0.2s, border 0.2s;
+      }
+      #imageModal .close:hover {
+        background: #fff;
+        color: #222;
+        border: 2px solid #222;
+        opacity: 1;
+      }
+      
+      #imageModal .modal-body {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      #imageModal .modal-body img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 0;
+        background: #222;
+      }
+      
+      @media (max-width: 767.98px) {
+        #imageModal .modal-header {
+          top: 10px;
+          right: 10px;
+        }
+        #imageModal .close {
+          font-size: 2rem;
+          width: 38px;
+          height: 38px;
+        }
+        #imageModal .modal-body {
+          width: 100vw;
+          height: 60vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+        #imageModal .modal-body img {
+          width: auto;
+          max-width: 100vw;
+          height: auto;
+          max-height: 60vh;
+          display: block;
+          margin: auto;
+          object-fit: contain;
+        }
+        #imageModal .modal-content, #imageModal .modal-dialog, #imageModal .modal-body {
+          height: 60vh;
+          min-height: 60vh;
+          display: flex;
+          align-items: center;
+          align-items: center;
+          justify-content: center;
+        }
+      }
