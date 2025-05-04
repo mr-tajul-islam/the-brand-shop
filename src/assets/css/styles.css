@@ -6,6 +6,7 @@
 .navbar{
     display: contents !important;
 }
+
 .naiveNavbar .navbar-light .navbar-nav .nav-link {
     color: var(--color-text-primary);
 }
@@ -28,3 +29,98 @@
 }
 /* #naive(naiveNavbar) #css ends  */
 /*****naive*****/
+
+
+/* #hues(huesHero) #css starts */
+  .huesHero .page-banner {
+    background: url(https://images.moksy.com/templates/default/banner/online-learning.jpeg) no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 100px; 
+  }
+  
+  .huesHero .page-banner-spacing {
+    padding-top: 170px; /* keep as-is for spacing requirement */
+    padding-bottom: 174px;
+  }
+  
+  .huesHero .card-section {
+    position: relative;
+    bottom: 60px;
+  }
+  
+  .huesHero .card-block {
+    padding: var(--spacing-xxl); /* 48px */
+    background: var(--color-background-primary);
+    box-shadow: 0 4px 6px var(--shadow-light);
+    border-radius: var(--border-radius-md);
+  }
+  
+  .huesHero .btn {
+    background-color: var(--dark);
+    border-radius: var(--btn-radius-sm); /* 4px */
+    color: var(--color-white);
+    font-weight: var(--font-weight-bold);
+    padding: var(--btn-padding-lg);
+    text-transform: capitalize;
+    letter-spacing: var(--letter-spacing-wide);
+    transition: background-color 0.3s ease;
+  }
+  
+  .huesHero .btn:hover {
+    background-color: var(--color-hover-primary);
+    color: var(--color-white);
+  }
+  /* #hues(huesHero) #css ends */
+  
+
+/* carousel #css starts  */
+  .shipment-gallery .carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    backdrop-filter: blur(5px);
+    right: 15%;
+    left: 15%;
+    bottom: 1.25rem;
+    transition: transform 0.3s ease;
+}
+.shipment-gallery h5{
+    color: var(--color-white);
+}
+.shipment-gallery .carousel-caption:hover {
+    transform: translateY(-10px);
+}
+
+.shipment-gallery .carousel-caption h5 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.shipment-gallery .carousel-caption p {
+    color: var(--color-white);
+}
+
+
+.shipment-gallery .carousel-control-prev,
+.shipment-gallery .carousel-control-next {
+    width: 5%;
+    opacity: 0.8;
+}
+
+.shipment-gallery .carousel-control-prev:hover,
+.shipment-gallery .carousel-control-next:hover {
+    opacity: 1;
+}
+
+.shipment-gallery .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.shipment-gallery .carousel-indicators .active {
+    background-color: #fff;
+}

@@ -1,11 +1,11 @@
 /* ================================================
 Covers all HTML content tags used in landing pages that are Compatible with Bootstrap 4
 ================================================ */
- 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); 
 :root {
   /* Font Families */
-  --font-primary: 'Poppins', sans-serif;
-  --font-secondary: 'Playfair Display', serif;
+  --font-primary: "Open Sans", sans-serif;
+  --font-secondary: "Montserrat", sans-serif;
 
   /* Font Sizes */
   --font-size-xs: 0.75rem; /* 12px *//* Extra Small Text */
