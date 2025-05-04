@@ -257,3 +257,348 @@
       padding: 0.4em 0.7em;
     }
   }
+/* table #css ends  */
+
+
+/* Available Products #css starts  */
+.available-products .btn-filter{
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+
+
+/* #rexon(rexonRoadmap) #css starts  */
+.rexonRoadmap h1 {
+    padding: 0 0 30px;
+    text-align: center;
+}
+
+.rexonRoadmap .main-timeline {
+    padding: 50px 0 0;
+    position: relative;
+}
+
+.rexonRoadmap .main-timeline .timeline {
+    margin: -42px 0 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.rexonRoadmap .main-timeline .timeline:before {
+    content: '';
+    border: 5px solid var(--dark);
+    border-right: 5px solid transparent;
+    height: calc(100% + 63px);
+    width: 50%;
+    border-radius: 100px 0 0 100px;
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    z-index: -1;
+}
+
+.rexonRoadmap .main-timeline .timeline-content {
+    background-color: var(--dark);
+    text-align: center;
+    width: 60%;
+    border-radius: 30px 30px;
+    padding: 20px 15px;
+    position: relative;
+    margin: 0 auto 100px;
+    display: block;
+    z-index: 1;
+}
+
+.rexonRoadmap .main-timeline .timeline-content:hover {
+    text-decoration: none;
+}
+
+.rexonRoadmap .main-timeline .timeline-content:before {
+    content: "";
+    background: var(--white);
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    border-radius: 20px 20px;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+}
+
+.rexonRoadmap .main-timeline .timeline-icon,
+.rexonRoadmap .main-timeline .timeline-year {
+    color: var(--dark);
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 10px;
+}
+
+.rexonRoadmap .main-timeline .title {
+    color: var(--dark);
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.rexonRoadmap .main-timeline .description {
+    color: var(--dark);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(even):before {
+    left: auto;
+    right: 12%;
+    border-radius: 0 100px 100px 0;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-content {
+    background: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2):before {
+    border-color: var(--dark);
+    border-left-color: transparent;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-icon,
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-year {
+    color: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-content {
+    background: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3):before {
+    border-color: var(--dark);
+    border-right-color: transparent;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-icon,
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-year {
+    color: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-content {
+    background: var(--dark);
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4):before {
+    border: none;
+}
+
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-icon,
+.rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-year {
+    color: var(--dark);
+}
+
+@media only screen and (max-width:990px) {
+    .rexonRoadmap .main-timeline .timeline:before {
+        left: 5%;
+        border-radius: 120px;
+    }
+
+    .rexonRoadmap .main-timeline .timeline:nth-child(even):before {
+        right: 5%;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .rexonRoadmap .main-timeline:before {
+        width: 85%;
+    }
+
+    .rexonRoadmap .main-timeline .timeline {
+        margin: -38px 0 0 0;
+    }
+
+    .rexonRoadmap .main-timeline .timeline:before {
+        left: 0;
+    }
+
+    .rexonRoadmap .main-timeline .timeline:nth-child(even):before {
+        right: 0;
+    }
+
+    .rexonRoadmap .main-timeline .timeline-content {
+        width: 85%;
+    }
+
+    .rexonRoadmap .main-timeline .title {
+        font-size: 18px;
+    }
+}
+
+/* #rexon(rexonRoadmap) #css ends  */
+
+
+/* #samon(samonService) #css starts */
+.samonService .feature-box-1 {
+    padding: 32px;
+    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    margin: 15px 0;
+    position: relative;
+    z-index: 1;
+    border-radius: 10px;
+    overflow: hidden;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s;
+    top: 0
+}
+
+.samonService .feature-box-1 * {
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s
+}
+
+.samonService .feature-box-1 .icon {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: var(--primary);
+    color: var(--white);
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 22px;
+    font-size: 27px
+}
+
+.samonService .feature-box-1 .icon i {
+    line-height: 70px
+}
+
+.samonService .feature-box-1 h5 {
+    color: var(--dark);
+    font-weight: 600
+}
+
+.samonService .feature-box-1 p {
+    margin: 0
+}
+
+.samonService .feature-box-1:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 0;
+    border-radius: 10px;
+    width: 0;
+    background: var(--dark);
+    z-index: -1;
+    -moz-transition: ease all 0.35s;
+    -o-transition: ease all 0.35s;
+    -webkit-transition: ease all 0.35s;
+    transition: ease all 0.35s
+}
+
+.samonService .feature-box-1:hover {
+    top: -5px
+}
+
+.samonService .feature-box-1:hover h5 {
+    color: var(--white)
+}
+
+.samonService .feature-box-1:hover p {
+    color: var(--white)
+}
+
+.samonService .feature-box-1:hover:after {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    left: 0;
+    right: auto
+}
+
+.samonService .section {
+    padding: 100px 0;
+    position: relative
+}
+
+.samonService .section-title {
+    padding-bottom: 45px
+}
+
+.samonService .section-title h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin: 0 0 15px;
+    border-left: 5px solid var(--primary);
+    padding-left: 15px
+}
+
+/* #samon(samonService) #css ends */
+
+
+/* #codra(codraClients) #css starts  */
+.codraClients .logo-slider {
+    overflow: hidden;
+    padding: 30px 0;
+    background: #f9f9f9;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .codraClients  .logo-slider .logos-slide {
+    display: inline-flex; /* Key fix */
+    gap: 80px;
+    animation: scroll 30s linear infinite;
+  }
+  
+  .codraClients  .logo-slider .logos-slide img {
+    width: 180px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  .logo-slider:hover .logos-slide {
+    animation-play-state: paused;
+  }
+/* #codra(codraClients) #css ends  */
+
+/* #cavor(cavorContact) #css starts  */
+.cavorContact .map {
+    width: 100%;
+    height: 200px;
+    border: none
+}
+
+.cavorContact .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+.cavorContact .fa-location-arrow{
+    font-size: var(--font-size-md);
+}
+/* #cavor(cavorContact) #css ends  */
+
+/* #foils(foilsFooter) #css starts */
+
+.foilsFooter .icons{
+    font-size: var(--font-size-md);
+    color: var(--dark);
+}
+/* #foils(foilsFooter) #css ends */
