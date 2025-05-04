@@ -1,0 +1,30 @@
+@import url(./typography.css);
+@import url(./layout.css);
+
+/*****naive*****/
+/* #naive(naiveNavbar) #css starts  */
+.navbar{
+    display: contents !important;
+}
+.naiveNavbar .navbar-light .navbar-nav .nav-link {
+    color: var(--color-text-primary);
+}
+
+.naiveNavbar .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--color-hover-primary);
+}
+
+.naiveNavbar .btn {
+    background-color: var(--color-secondary);
+    border: none;
+    padding: var(--btn-padding-sm);
+    color: var(--color-white);
+}
+
+.naiveNavbar .btn:hover{
+    color: var(--color-white);
+    text-decoration: none;
+    background-color: var(--color-primary);
+}
+/* #naive(naiveNavbar) #css ends  */
+/*****naive*****/

@@ -1,0 +1,86 @@
+✔️Basic Project Info
+Project Name: The Brand Shop
+
+✔️Purpose
+Showcase latest and upcoming product shipments, promote UK-sourced products, and provide essential business/contact information to potential partners or clients.
+
+✔️Business Type
+B2B Importer & Distributor
+
+✔️Category
+eCommerce / Wholesale Supply
+
+✔️Sub-category
+Branded Product Imports
+
+✔️Inspiration
+🔹 Alibaba
+🔹 Made-in-China
+🔹 Faire
+🔹 UKTradeGlobal
+
+✔️Target Audience
+🔹 Global Wholesale Buyers
+🔹 Retailers in Bangladesh and overseas
+🔹 Brand Distributors
+🔹 B2B Procurement Officers
+🔹 Online/Offline Merchants
+
+✔️Design & Style
+Visual Style:
+Clean, trustworthy, modern, product-focused, scroll-based single-page design
+
+✔️Keywords
+🔹 UK Importer
+🔹 Product Shipments
+🔹 Branded Goods
+🔹 B2B Wholesale
+🔹 Upcoming Shipments
+🔹 Contact Importer
+🔹 Trusted Logistics
+
+✔️Showcase
+The Brand Shop presents itself as a UK-based trusted importer of branded goods, offering transparency into upcoming and latest shipments, direct sourcing benefits, and strong logistics for fast international delivery. The site targets professional buyers and distributors looking for reliable UK sourcing with a direct contact point in both the UK and Bangladesh.
+
+✔️Layout
+Navbar
+
+Hero Section (with CTA + tagline)
+
+Latest Shipment (Image Gallery or Carousel)
+
+Upcoming Shipments (Responsive Table)
+
+Available Products (Filtered Grid)
+
+About The Company
+
+Brands We Work With (Logo Strip/Grid)
+
+UK Sourcing Advantage (Icon-based or bullets)
+
+Contact Details & Form
+
+Footer (Links + Socials)
+
+✔️Images
+Logo
+
+Hero Banner (with branded products)
+
+Product images (latest shipments, available products)
+
+Brand logos
+
+Office locations (optional map images)
+
+✔️Text
+Hero section title & tagline
+
+About The Company paragraph
+
+UK Sourcing Advantage bullet points
+
+Button text: “Request Info”, “Explore Shipment”, etc.
+
+Contact details (UK and Bangladesh)
