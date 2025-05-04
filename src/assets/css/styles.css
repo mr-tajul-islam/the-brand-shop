@@ -244,3 +244,16 @@
           justify-content: center;
         }
       }
+
+/* table #css starts  */
+@media (max-width: 575.98px) {
+    .shipment-table .table td, 
+    .shipment-table .table th {
+      padding: 0.5rem;
+      font-size: 0.95rem;
+    }
+    .shipment-table .badge {
+      font-size: 0.85rem;
+      padding: 0.4em 0.7em;
+    }
+  }
