@@ -132,7 +132,7 @@
   }
   
   .shipment-gallery .carousel-indicators .active {
-    background-color: #fff;
+    background-color:var(--color-white);
   }
 
     /* Modal Styles */
@@ -171,9 +171,9 @@
       
       #imageModal .close {
         font-size: 2.5rem;
-        color: #fff;
-        background: rgba(0,0,0,0.7);
-        border: 2px solid #fff;
+        color: var(--color-white);
+        background: var(--dark);
+        border: 2px solid var(--color-white);
         border-radius: 50%;
         width: 48px;
         height: 48px;
@@ -181,13 +181,13 @@
         align-items: center;
         justify-content: center;
         opacity: 1;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        box-shadow: 0 2px 8px var(--shadow);
         transition: background 0.2s, color 0.2s, border 0.2s;
       }
       #imageModal .close:hover {
-        background: #fff;
-        color: #222;
-        border: 2px solid #222;
+        background: var(--color-white);
+        color:  var(--dark);
+        border: 2px solid  var(--dark);
         opacity: 1;
       }
       
@@ -206,7 +206,7 @@
         object-fit: cover;
         object-position: center;
         border-radius: 0;
-        background: #222;
+        background:  var(--dark);
       }
       
       @media (max-width: 767.98px) {
@@ -267,7 +267,7 @@
     padding: var(--btn-padding-sm);
     color: var(--color-white);
 }
-
+/* Available Products #css ends  */
 
 
 /* #rexon(rexonRoadmap) #css starts  */
@@ -318,7 +318,7 @@
 
 .rexonRoadmap .main-timeline .timeline-content:before {
     content: "";
-    background: var(--white);
+    background: var(--color-white);
     width: calc(100% - 20px);
     height: calc(100% - 20px);
     border-radius: 20px 20px;
@@ -331,7 +331,7 @@
 
 .rexonRoadmap .main-timeline .timeline-icon,
 .rexonRoadmap .main-timeline .timeline-year {
-    color: var(--dark);
+    color: var(--color-tertiary);
     font-size: 30px;
     font-weight: 600;
     margin: 0 0 10px;
@@ -367,7 +367,7 @@
 
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-icon,
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+2) .timeline-year {
-    color: var(--dark);
+    color: var(--color-tertiary);
 }
 
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-content {
@@ -381,7 +381,7 @@
 
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-icon,
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+3) .timeline-year {
-    color: var(--dark);
+    color: var(--color-tertiary);
 }
 
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-content {
@@ -394,7 +394,7 @@
 
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-icon,
 .rexonRoadmap .main-timeline .timeline:nth-child(4n+4) .timeline-year {
-    color: var(--dark);
+    color: var(--color-tertiary);
 }
 
 @media only screen and (max-width:990px) {
@@ -440,11 +440,11 @@
 /* #samon(samonService) #css starts */
 .samonService .feature-box-1 {
     padding: 32px;
-    box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
+    box-shadow: 0 0 30px var(--shadow);
     margin: 15px 0;
     position: relative;
     z-index: 1;
-    border-radius: 10px;
+    border-radius: var(--border-radius-md);
     overflow: hidden;
     -moz-transition: ease all 0.35s;
     -o-transition: ease all 0.35s;
@@ -464,7 +464,7 @@
     width: 70px;
     height: 70px;
     line-height: 70px;
-    background: var(--primary);
+    background: var(--color-primary);
     color: var(--white);
     text-align: center;
     border-radius: 50%;
@@ -507,11 +507,11 @@
 }
 
 .samonService .feature-box-1:hover h5 {
-    color: var(--white)
+    color: var(--color-white)
 }
 
 .samonService .feature-box-1:hover p {
-    color: var(--white)
+    color: var(--color-white)
 }
 
 .samonService .feature-box-1:hover:after {
@@ -535,7 +535,7 @@
     font-weight: 700;
     font-size: 45px;
     margin: 0 0 15px;
-    border-left: 5px solid var(--primary);
+    border-left: 5px solid var(--color-primary);
     padding-left: 15px
 }
 
@@ -546,7 +546,7 @@
 .codraClients .logo-slider {
     overflow: hidden;
     padding: 30px 0;
-    background: #f9f9f9;
+    background: var(--neutral-light);
     position: relative;
     white-space: nowrap;
   }
