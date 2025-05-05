@@ -33,7 +33,7 @@
 
 /* #hues(huesHero) #css starts */
   .huesHero .page-banner {
-    background: url(https://images.moksy.com/templates/default/banner/online-learning.jpeg) no-repeat center center;
+    background: url(../images/hero.png) no-repeat center center;
     background-size: cover;
     position: relative;
     padding: 100px; 
