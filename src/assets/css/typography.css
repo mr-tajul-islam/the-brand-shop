@@ -47,38 +47,61 @@ Covers all HTML content tags used in landing pages that are Compatible with Boot
   --letter-spacing-normal: 0px;
   --letter-spacing-wide: 0.5px;
 
-  /* Brand Colors */
-  --color-primary: #00A2FF;
-  --color-secondary: #007ACC;
-  --color-tertiary: #005F99;
-
-  /* Background Colors */
-  --color-white: #F5F5F5;
-  --color-background-primary: #FFFFFF;
-  --color-background-secondary: #F0F4F8;
-
-  /* Text Colors */
-  --color-text-primary: #212121;
-  --color-text-secondary: #757575;
-
-  /* Status Colors */
-  --color-alert: #D32F2F;
-  --color-warning: #FFA000;
-  --color-success: #4CAF50;
-  --color-info: #2196F3;
-  --color-disabled: #BDBDBD;
-
-  /* UI States */
-  --hover: #0086CC;
-  --focus-color: #2196F3;
-
-  /* Borders */
-  --border-color: #E0E0E0;
-  --input-background: #FFFFFF;
-  --input-border: #BDBDBD;
-
-  /* Shadows */
-  --shadow: rgba(0, 0, 0, 0.2);
+   /* Brand Colors */
+   --color-primary: #D92525;          /* Bold red from logo */
+   --color-secondary: #007A3D;        /* Deep green from base shape */
+   --color-tertiary: #C4161C;         /* Accent red, slightly darker */
+ 
+   /* Background Colors */
+   --color-white: #F5F5F5;
+   --color-background-primary: #FFFFFF;
+   --color-background-secondary: #F0F0F0;
+ 
+   /* Text Colors */
+   --color-text-primary: #212121;
+   --color-text-secondary: #4F4F4F;
+ 
+   /* Status Colors */
+   --color-alert: #C62828;
+   --color-warning: #FF9800;
+   --color-success: #2E7D32;
+   --color-info: #0288D1;
+   --color-disabled: #BDBDBD;
+ 
+   /* UI States */
+   --hover: #B91C1C;                  /* Dark hover red */
+   --focus-color: #2E7D32;           /* Green focus */
+ 
+   /* Borders */
+   --border-color: #E0E0E0;
+   --input-background: #FFFFFF;
+   --input-border: #CCCCCC;
+ 
+   /* Shadows */
+   --shadow: rgba(0, 0, 0, 0.15);
+ 
+   /* Neutral Colors */
+   --neutral-light: #E0E0E0;
+   --neutral-dark: #616161;
+ 
+   /* Link Color */
+   --color-link: #007A3D;
+ 
+   /* Hover States */
+   --color-hover-primary: #B22222;
+   --color-hover-secondary: #005E2E;
+ 
+   /* Disabled States */
+   --color-disabled-background: #E0E0E0;
+   --color-disabled-text: #9E9E9E;
+ 
+   /* Border States */
+   --color-border-hover: #C62828;
+   --color-border-focus: #66BB6A;
+ 
+   /* Shadows */
+   --shadow-light: rgba(0, 0, 0, 0.05);
+   --shadow-dark: rgba(0, 0, 0, 0.3);
 
   /* Dark Mode (Optional Extension Later) */
   --dark: #353535;
