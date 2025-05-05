@@ -612,19 +612,19 @@
 
 /* Video Section Styles */
 .video-section {
-  background-color: #f8f9fa;
+  background-color: var(--color-white);
 }
 
 .video-wrapper {
   border-radius: 10px;
   overflow: hidden;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px var(--shadow);
   transition: all 0.3s ease;
 }
 
 .video-wrapper:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 15px 35px var(--shadow);
 }
 
 .video-thumbnail {
@@ -665,7 +665,7 @@
 }
 
 .video-player {
-  background: #000;
+  background: var(--dark);
 }
 
 .video-player video {
